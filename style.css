@@ -1,0 +1,48 @@
+html, body {
+	max-width: 90%;
+	margin: auto;
+	height: 100%;
+}
+
+
+.jumbotron {
+		background-image: url('rennes.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: bottom;
+		color: white;
+}
+
+
+
+
+
+.comment-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 500px;
+	border: 1px solid grey;
+	border-radius: 3px;
+	box-shadow: 1px 1px 2px black;
+}
+.comment-user, .comment-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+}
+.comment-content {
+	border-left: 2px solid #A2A2A2;
+}
+.comment {
+	margin-left: 3px;
+}
+.comment-date {
+	align-self: flex-end;
+}
+.comment-img {
+	width: 75px;
+	height: 75px;
+}
